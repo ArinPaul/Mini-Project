@@ -5,7 +5,7 @@ from skimage.io import imread
 from skimage.transform import resize
 
 data = 'Images'
-category = ['MANGO']
+category = ['men','women']
 
 flat_data = []
 target = []
@@ -19,7 +19,3 @@ for i in category:
         flat_data.append(img_resize.flatten())
         target.append(i)
         
-    
-
-
-
